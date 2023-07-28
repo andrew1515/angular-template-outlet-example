@@ -11,6 +11,7 @@ import { WeatherWidgetComponent } from "../weather-widget/weather-widget.compone
 })
 export class WeatherCustomActionComponent {
   /**
+   *
    * This will not work just like that. The instance of this component is declared in the app.component, so the parent injector
    * will be the injector of the app.component. But the "providers" array of the app.component isn't containing tbe WeatherWidgetComponent,
    * so this injection will throw an error.
